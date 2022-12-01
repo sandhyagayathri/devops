@@ -1,6 +1,5 @@
 ---
  - hosts: db
    become: true
-   host_key_checking = False
    tasks:
      - ping:
