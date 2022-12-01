@@ -1,0 +1,9 @@
+---
+ - hosts: ansible
+   become: true
+   tasks: 
+     - ping: 
+     - name: tree installing 
+       yum: 
+         name: tree
+         state: installed 
