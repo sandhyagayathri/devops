@@ -1,5 +1,5 @@
 ---
- - hosts: ansible
+ - hosts: cm
    become: true
    tasks: 
      - ping: 
